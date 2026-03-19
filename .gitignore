@@ -208,5 +208,6 @@ __marimo__/
 
 screens/
 test-local.py
+applocal.py
 ssl.key
 ssl.crt
