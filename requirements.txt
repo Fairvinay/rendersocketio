@@ -1,0 +1,10 @@
+Flask==3.0.3
+Flask-SocketIO==5.3.6
+python-socketio==5.11.2
+python-engineio==4.9.1
+
+fyers-apiv3==3.1.1
+
+gunicorn==21.2.0
+
+setuptools==80.9.0
