@@ -1,3 +1,7 @@
+# 🔥 MUST BE FIRST LINE
+import eventlet
+eventlet.monkey_patch()
+
 import os
 import ssl
 import json
