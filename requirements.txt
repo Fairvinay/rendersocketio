@@ -2,7 +2,7 @@ Flask==3.0.3
 Flask-SocketIO==5.3.6
 python-socketio==5.11.2
 python-engineio==4.9.1
-
+eventlet==0.40.4
 fyers-apiv3==3.1.1
 
 gunicorn==21.2.0

@@ -7,7 +7,7 @@ from fyers_apiv3.FyersWebsocket import data_ws
 
 app = Flask(__name__)
 # SocketIO handles the "Connection: Upgrade" for you automatically
-socketio = SocketIO(app, cors_allowed_origins="*", async_mode="threading")
+socketio = SocketIO(app, cors_allowed_origins="*", async_mode="eventlet")
 
 
 # --- Fyers Callbacks ---
